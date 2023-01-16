@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    border-bottom: none;
+    color: black;
+    text-decoration: none;
+}
+
+.main-header{
+    background-color: #404146;
+    color: white;
+    width: 100%;
+    position: fixed;
+}
+
+.main-header .container{
+    display:flex;
+    align-items: center;
+}
+
+.main-header .brand{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 10px;
+    margin-right: 60px;
+    color: white;
+}
+
+.nav-icon{
+    display: none;
+}
+
+.main-nav ul{
+    display: flex;
+}
+
+.main-nav li{
+    margin-right: 40px;
+}
+
+.main-nav a{
+    color: white;
+}
+
+.ninja-wrapper h1{
+    font-size: 100px;
+    color: #404146;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+
+.ninja-wrapper span{
+    color: #F1D00E;
+}
+
+.ninja-wrapper h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: #404146;
+}
+
+.ninja-wrapper img{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 100px; 
+}
+
+.tentang-wrapper{
+    text-align: center;
+    color: #404146;
+    padding: 70px 0;
+    background-color:#F4F4F4 ;
+
+}
+
+.tentang-wrapper h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.tentang-wrapper p {
+    font-size: 16px;
+}
+
+.proyek-wrapper{
+    padding-top:60px;
+    margin-bottom: 80px;
+}
+
+
+.proyek-wrapper h2{
+    color: #404146;
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.proyek-wrapper .contoh{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contoh-img img{
+    margin-bottom: 10px;
+}
+
+.hubungi-wrapper{
+    background-color: #F4F4F4;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.hubungi-wrapper h2{
+    color: #404146;
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form input, .form textarea{
+    display: flex;
+}
+
+.text, textarea {
+    width: 70%;
+    padding: 0 16px;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.text{
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+textarea{
+    height: 100px;
+    
+    margin-bottom: 40px;
+}
+
+input.submit{
+    width: 30%;
+    background-color: #F7E989;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    margin: auto;
+    display: block;
+}
+
+footer{
+    background-color: #7C7D82;
+    padding: 10px;
+    color: white;
+    padding-top:40px ;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2{
+    letter-spacing: 8px;
+}
+
+.footer-nav li {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
